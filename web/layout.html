@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+</head>
+<body>
+<div>
+  <form method="POST" action="/">     
+      <label>Date</label><input name="date" type="date" value="" />
+      <input type="submit" value="submit" />
+  </form>
+</div>
+<div id="pdf">
+    <iframe src="scans/{{.PdfPath}}/0001.pdf" width="80%" height="500px">
+    </iframe>
+</div>
+</body>
